@@ -1,0 +1,16 @@
+net: "Res50/cifar10/train_val.prototxt"
+test_iter: 20
+test_interval: 400
+test_initialization: false
+display: 40
+average_loss: 40
+base_lr: 0.01
+lr_policy: "step"
+stepsize: 1000
+gamma: 0.96
+max_iter: 10000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 1000
+snapshot_prefix: "/home/zshen5/Snapshot/ResNet/cifar10"
+solver_mode: GPU
